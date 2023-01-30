@@ -1,0 +1,189 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1{
+    width: 8,33%;
+   
+    height: 100px;
+}
+ 
+.col-2{
+    width: 16,66%;
+    height: 100px;
+}
+
+.col-3{
+    width: 25%;
+    height: 100px;
+}
+
+.col-4{
+    width: 33,33%;
+   
+    height: 100px;
+}
+
+.col-5{
+    width: 41,66%;
+  
+    height: 100px;
+}
+
+.col-6{
+    width: 50%;
+   
+    height: 100px;
+}
+
+.col-7{
+    width: 58,33%;
+    
+    height: 100px;
+}
+
+.col-8{
+    width: 66,66%;
+    
+    height: 100px;
+}
+
+.col-9{
+    width: 75%;
+  
+    height: 100px;
+}
+
+.col-10{
+    width: 83,33%;
+    
+    height: 100px;
+}
+
+.col-11{
+    width: 91,66%;
+    
+    height: 100px;
+}
+
+.col-12{
+    width: 100%;
+    height: 100px;
+
+}
+
+
+.container{
+    width: 60%;
+    
+    
+    
+}
+
+.row{
+    display: flex;
+    gap: 30px;
+}
+
+
+#up .header{
+    height: 120px;
+    background-color: rgb(74, 74, 222);
+    margin-top: 20px;
+}
+
+#up .header p{
+    font-size: 35px;
+    color: white;
+    padding: 30px;
+}
+
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
+
+}
+
+
+#main .main-content{
+    width: 450px;
+    height: 280px;
+    background-color: rgb(43, 226, 43);
+    
+    justify-content: left;
+
+}
+
+#main .main-content p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 150px;
+}
+
+#main .sidebar{
+    width: 200px;
+    height: 280px;
+    background-color: rgb(198, 45, 167);
+    
+}
+
+#main .sidebar p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 150px;
+}
+
+#twin .twin-one{
+    width: 320px;
+    height: 100px;
+    background-color: rgb(241, 166, 46);
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+#twin .twin-one p{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#twin .twin-two{
+    width: 320px;
+    height: 100px;
+    background-color: rgb(246, 172, 23);
+    margin-top: 200px;
+    margin-left: 200px;
+    
+}
+
+
+
+#twin .twin-two p{
+   color: white;
+   text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#down .footer{
+    height: 120px;
+    background-color: rgb(74, 74, 222);
+    margin-top: 250px;
+}
+
+#down .footer p{
+    font-size: 35px;
+    color: white;
+    padding: 30px;
+    
+}
+
